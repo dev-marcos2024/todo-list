@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gray100: #F2F2F2;
+  --gray200: #D9D9D9;
+  --gray300: #808080;
+  --gray400: #333333;
+  --gray500: #262626;
+  --gray600: #1A1A1A;
+  --gray700: #0D0D0D;
+  --purple: #8284FA;
+  --purpleDark: #5E60CE;
+  --red: #E25858;
+  --maxWidthApp: 800px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+html {
+  height: 100vh;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--gray600);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}

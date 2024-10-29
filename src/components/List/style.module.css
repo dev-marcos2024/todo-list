@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+
+.li{
+    display: flex;
+    background-color: var(--gray400);
+    border-radius: 8px;
+    padding: 8px;
+    color: var(--gray200);
+}
+
